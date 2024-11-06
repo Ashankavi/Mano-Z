@@ -17,7 +17,7 @@ const Hero = () => {
   }, [images.length]);
 
   return (
-    <div className='w-full h-auto overflow-hidden relative'>
+    <div className='relative w-full h-auto overflow-hidden'>
       <div
         className="flex transition-transform duration-1000 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
